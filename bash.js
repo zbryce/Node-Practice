@@ -1,3 +1,7 @@
-const check = require('./pwd') 
-process.stdout.write('prompt > ')
+let fnc = require('./pwd')
+let fnc2 = require('./ls')
+
+process.stdout.write('prompt >')
+fnc()
+fnc2()
 
